@@ -62,13 +62,13 @@ endfunction()
 
 # libmpv archive containing the pre-built shared libraries & headers.
 # set(LIBMPV "mpv-x86_64-20230924-git-652a1dd.7z")
-set(LIBMPV "mpv-dev-x86_64-v3-20240305-git-665a472.7z")
+set(LIBMPV "mpv-dev-x86_64-20240305-git-665a472.7z")
 
 # Download URL & MD5 hash of the libmpv archive.
 # set(LIBMPV_URL "https://github.com/media-kit/libmpv-win32-video-build/releases/download/2023-09-24/${LIBMPV}")
 set(LIBMPV_URL "https://github.com/zhongfly/mpv-winbuild/releases/download/2024-03-05-665a472/${LIBMPV}")
 # set(LIBMPV_MD5 "a7f427544273d14751b50fa771832c19")
-set(LIBMPV_MD5 "4368e63207899f5fed9ac3f05beaee35")
+set(LIBMPV_MD5 "c1889dc310af3baa0cea2548a2533d2c")
 
 # Download location of the libmpv archive.
 set(LIBMPV_ARCHIVE "${CMAKE_BINARY_DIR}/${LIBMPV}")
